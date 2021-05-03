@@ -16,6 +16,10 @@
 		4E3E296E2639D973008D7990 /* FirsttestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E296D2639D973008D7990 /* FirsttestTests.swift */; };
 		4E3E29792639D973008D7990 /* FirsttestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E29782639D973008D7990 /* FirsttestUITests.swift */; };
 		4E3E298A2639D9B2008D7990 /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E29892639D9B2008D7990 /* Hater.swift */; };
+		4E3E298F263CB58F008D7990 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E298E263CB58F008D7990 /* Converter.swift */; };
+		4E3E299526405EE0008D7990 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E299426405EE0008D7990 /* ConverterTests.swift */; };
+		4EC7AAF926409A56009274D8 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7AAF826409A56009274D8 /* Math.swift */; };
+		4EC7AAFE26409B4D009274D8 /* MathTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7AAFD26409B4D009274D8 /* MathTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		4E3E29782639D973008D7990 /* FirsttestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttestUITests.swift; sourceTree = "<group>"; };
 		4E3E297A2639D973008D7990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3E29892639D9B2008D7990 /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		4E3E298E263CB58F008D7990 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		4E3E299426405EE0008D7990 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConverterTests.swift; path = FirsttestTests/ConverterTests.swift; sourceTree = SOURCE_ROOT; };
+		4EC7AAF826409A56009274D8 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		4EC7AAFD26409B4D009274D8 /* MathTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		4E3E29552639D96F008D7990 /* Firsttest */ = {
 			isa = PBXGroup;
 			children = (
+				4E3E298E263CB58F008D7990 /* Converter.swift */,
 				4E3E29562639D96F008D7990 /* AppDelegate.swift */,
 				4E3E29582639D96F008D7990 /* SceneDelegate.swift */,
 				4E3E295A2639D96F008D7990 /* ViewController.swift */,
@@ -109,6 +118,7 @@
 				4E3E295F2639D972008D7990 /* Assets.xcassets */,
 				4E3E29612639D972008D7990 /* LaunchScreen.storyboard */,
 				4E3E29642639D972008D7990 /* Info.plist */,
+				4EC7AAF826409A56009274D8 /* Math.swift */,
 			);
 			path = Firsttest;
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				4E3E296D2639D973008D7990 /* FirsttestTests.swift */,
+				4E3E299426405EE0008D7990 /* ConverterTests.swift */,
 				4E3E296F2639D973008D7990 /* Info.plist */,
+				4EC7AAFD26409B4D009274D8 /* MathTest.swift */,
 			);
 			path = FirsttestTests;
 			sourceTree = "<group>";
@@ -265,6 +277,8 @@
 				4E3E29572639D96F008D7990 /* AppDelegate.swift in Sources */,
 				4E3E298A2639D9B2008D7990 /* Hater.swift in Sources */,
 				4E3E29592639D96F008D7990 /* SceneDelegate.swift in Sources */,
+				4E3E298F263CB58F008D7990 /* Converter.swift in Sources */,
+				4EC7AAF926409A56009274D8 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3E299526405EE0008D7990 /* ConverterTests.swift in Sources */,
 				4E3E296E2639D973008D7990 /* FirsttestTests.swift in Sources */,
+				4EC7AAFE26409B4D009274D8 /* MathTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

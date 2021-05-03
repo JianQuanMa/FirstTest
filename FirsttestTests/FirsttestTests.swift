@@ -18,6 +18,7 @@ class FirsttestTests: XCTestCase {
     func testHaterStartsNicely(){
         let hater = Hater()
         XCTAssertFalse(hater.hating)
+        print("strat nice")
     }
     
     func testHaterHatesAfterBadDay(){
@@ -26,6 +27,7 @@ class FirsttestTests: XCTestCase {
         hater.badday()
         
         XCTAssertTrue(hater.hating)
+        print("bad day test")
     }
     
     func testHaterHatesAfterGoodDay(){
@@ -34,6 +36,8 @@ class FirsttestTests: XCTestCase {
         hater.goodDay()
         
         XCTAssertFalse(hater.hating)
+        
+        print("good day test ")
     }
     
     override func tearDown() {
